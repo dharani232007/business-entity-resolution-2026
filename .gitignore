@@ -1,0 +1,18 @@
+# Large datasets and outputs (never commit these to Git)
+dataset/
+output/
+
+# macOS / Windows junk
+._*
+.DS_Store
+__MACOSX/
+Thumbs.db
+
+# Python environments & caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+*.pkl
+*.model
